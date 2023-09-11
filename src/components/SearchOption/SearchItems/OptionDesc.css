@@ -1,0 +1,72 @@
+.option-card {
+  width: 500px;
+  min-height: 310px;
+  max-height: 800px;
+  position: fixed;
+  left: 2%;
+  top: 15%;
+  background: #f5f5f5;
+  border-radius: 10px;
+  z-index: 100;
+  padding: 20px;
+  padding-top: 30px;
+  border: 3px solid #5555ff55;
+  opacity: 0.8;
+  transition: 1s ease;
+}
+
+.option-card-hide {
+  left: -700px;
+}
+
+.option-card .close-button {
+  position: absolute;
+  right: 0px;
+  top: -20px;
+  zoom: 2;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.option-card .close-button:hover {
+  opacity: 1;
+}
+
+.option-card .save-button {
+  position: absolute;
+  right: 20px;
+  top: -20px;
+  zoom: 2;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.option-card .save-button:hover {
+  opacity: 1;
+}
+
+.option-card:hover {
+  opacity: 1;
+}
+
+.option-card .ant-table-row {
+  cursor: pointer;
+}
+
+.option-card .ant-table-cell-row-hover {
+  background: #5555ff55 !important;
+}
+
+.option-card .ant-table-pagination-right {
+  justify-content: center;
+}
+
+.option-card .ant-pagination-options {
+  display: none;
+}
+
+.option-card .striped-table tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}

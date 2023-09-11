@@ -1,0 +1,19 @@
+.complex-search-content {
+  padding-top: 50px;
+  height: 450px;
+  overflow-x: auto;
+}
+
+.modalbody ::-webkit-scrollbar {
+  width: 10px; /* Adjust the width as needed */
+}
+
+
+.modalbody ::-webkit-scrollbar-thumb {
+  background: #888; /* Set the color of the thumb */
+  border-radius: 5px; /* Adjust the border-radius as needed */
+}
+
+.modalbody ::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Set the color of the thumb on hover */
+}

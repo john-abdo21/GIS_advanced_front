@@ -1,0 +1,242 @@
+.total-container {
+  position: relative;
+  min-height: 100%;
+}
+
+.back-vertical-line {
+	width: 2px;
+  margin-top: 5px;
+	height: calc(100% - 5px);
+	background-color: gray;
+	position: absolute;
+	top: 0;
+	left: 94px;
+  z-index: 1;
+}
+
+.horizontal-order {
+	display: flex;
+	flex-direction: row;
+  align-items: stretch;
+}
+
+.vertical-order {
+	display: flex;
+	flex-direction: column;
+}
+
+.line-horizontal {
+	width: 50px;
+	height: 2px;
+	background-color: gray;
+	position: relative;
+	top: 125px;
+	left: 0;
+}
+
+.line-vertical {
+	width: 2px;
+	height: 50px;
+	background-color: gray;
+	position: relative;
+	top: 0;
+	left: 94px;
+}
+
+.space-vertical-line {
+	width: 2px;
+	height: 30px;
+	background-color: black;
+	position: relative;
+	top: 0;
+	left: 95px;
+}
+
+.complex-option-card {
+	position: relative;
+  width: 200px;
+	min-width: 200px;
+	height: 228px;
+  min-height: 228px;
+  background-color: white;
+	border: 1px solid #00000055;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 15px;
+  z-index: 10;
+  transition: all 0.3s ease;
+
+  .main-dev {
+    z-index: 10;
+  }
+
+	.round-button {
+		position: absolute;
+		width: 30px;
+		height: 30px;
+		border-radius: 15px;
+		border: 1px solid #00000055;
+		z-index: 106;
+		text-align: center;
+		background-color: white;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: black;
+		font-weight: 600;
+		transition: all 0.3s ease;
+	}
+
+  .has-color {
+    background-color: #555555;
+    color: white;
+  }
+
+	.round-button:hover {
+		background-color: #000000aa;
+		color: white;
+	}
+
+	.and-button {
+		top: calc(50% - 20px);
+		right: -40px;
+		cursor: pointer;
+	}
+
+	.or-button {
+		bottom: -40px;
+		left: calc(50% - 20px);
+		cursor: pointer;
+	}
+
+	.close-button {
+		top: -15px;
+		right: -15px;
+		cursor: pointer;
+		border: none;
+		font-size: 25px;
+		color: #777777;
+	}
+
+	.category-center {
+		position: absolute;
+		top: -15px;
+		left: calc(50% - 50px);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 120px;
+	}
+
+	.category-stretch {
+		display: flex;
+		align-items: center;
+		padding-bottom: 5px;
+	}
+}
+
+.complex-option-card:hover {
+	background-color: #eeeeee;
+	box-shadow: 0px 5px 10px solid #00000055;
+}
+
+.complex-option-card .ant-form-item {
+	margin-bottom: 0px;
+}
+
+.complex-option-card .ant-divider-horizontal {
+	margin-bottom: 10px;
+}
+
+.background-reactive-river {
+  background-color: #f2f5ff;
+  box-shadow: 0px 0px 5px 5px #0000ff33;
+  .dropdown-box {
+    background-color: #5555ff;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px -5px 5px 0px #0000ff33;
+  }
+  .dropdown-box:hover {
+    color: white !important;
+  }
+}
+
+.background-reactive-hasquery {
+  background-color: #727272;
+  box-shadow: 0px 0px 5px 5px #0000ff33;
+  .dropdown-box {
+    background-color: #5555ff;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px -5px 5px 0px #0000ff33;
+  }
+  .dropdown-box:hover {
+    color: white !important;
+  }
+}
+
+.background-reactive-forest {
+  background-color: #eefff6;
+  box-shadow: 0px 0px 5px 5px #00ff0033;
+  .dropdown-box {
+    background-color: #55aa55;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px -5px 5px 0px #00ff0033;
+  }
+  .dropdown-box:hover {
+    color: white !important;
+  }
+}
+
+.background-reactive-lake {
+  background-color: #f2f0ff;
+  box-shadow: 0px 0px 5px 5px #6600ff33;
+  .dropdown-box {
+    background-color: #aa00aa;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px -5px 5px 0px #6600ff33;
+  }
+  .dropdown-box:hover {
+    color: white !important;
+  }
+}
+
+.background-reactive-others {
+  background-color: #ffedf7;
+  box-shadow: 0px 0px 5px 5px #ff000033;
+  .dropdown-box {
+    background-color: #770000;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px -5px 5px 0px #ff000033;
+  }
+  .dropdown-box:hover {
+    color: white !important;
+  }
+}
+
+.unset-state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus-icon {
+  font-size: 100px;
+  color: #555555;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+}
+
+.plus-icon:hover {
+  background-color: #555555;
+  color: white;
+  box-shadow: 0px 0px 10px 15px #00000055;
+}

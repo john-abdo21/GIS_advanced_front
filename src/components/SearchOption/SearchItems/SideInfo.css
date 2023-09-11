@@ -1,0 +1,58 @@
+.side-info-box {
+  position: fixed;
+  width: 300px;
+  bottom: 100px;
+  right: 100px;
+  height: 400px;
+  background-color: #000000aa;
+  border-radius: 20px;
+  z-index: 104;
+  color: white;
+  padding: 50px;
+  font-size: 16px;
+  transition: all 1s ease;
+}
+
+.side-info-box-hide {
+  right: -500px;
+}
+
+.side-info-keys {
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.side-info-text {
+  padding-left: 20px;
+  padding-top: 2px;
+}
+
+.side-info-box .close-button {
+  position: absolute;
+  right: 0px;
+  top: -20px;
+  zoom: 1.5;
+  opacity: 0.5;
+  cursor: pointer;
+  color: black;
+}
+
+.side-info-box .close-button:hover {
+  color: #0000ff99;
+}
+
+.side-info-box .google-map-icon {
+  position: absolute;
+  bottom: 0px;
+  right: -20px;
+}
+
+.side-info-box .google-map-icon {
+  width: 60px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.side-info-box .google-map-icon:hover {
+  width: 100px;
+}

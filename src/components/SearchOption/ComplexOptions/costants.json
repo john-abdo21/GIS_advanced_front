@@ -1,0 +1,7 @@
+{
+  "PLOT_TABLE_NAME": "test_pl_plot3857_small",
+  "RIVER_TABLE_NAME": "test_pl_river3857_small",
+  "FOREST_TABLE_NAME": "test_pl_forest3857_small",
+  "LAKE_TABLE_NAME": "test_pl_inlandwater3857_small",
+  "OTHERS_TABLE_NAME": "test_pl_hospital3857_small"
+}
